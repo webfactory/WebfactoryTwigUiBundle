@@ -1,0 +1,16 @@
+{% props
+    name,
+    path = 'bundles/app/img/icons/_svg-symbols-sprite.svg',
+%}
+
+{% set _attributes = {
+    class: 'icon-'~name,
+    width: 32,
+    height: 32,
+    focusable: 'false',
+    'aria-hidden': 'true',
+} %}
+
+<svg xmlns="http://www.w3.org/2000/svg" {{ attributes.defaults(_attributes) }}>
+    <use href="{{ asset(path) }}#{{ name }}"></use>
+</svg>

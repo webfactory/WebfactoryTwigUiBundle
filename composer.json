@@ -1,0 +1,20 @@
+{
+    "name": "webfactory/twig-ui-bundle",
+    "description": "Bundle for Symfony UX Twig Components",
+    "license": "MIT",
+    "require": {
+        "php": ">= 8.1",
+        "twig/twig": "^3.23",
+        "symfony/http-kernel": "^7.4",
+        "symfony/twig-bundle": "^7.4",
+        "symfony/ux-twig-component": "^2.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "wf\\UiBundle\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
