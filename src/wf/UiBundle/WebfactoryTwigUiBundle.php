@@ -1,6 +1,6 @@
 <?php
 
-namespace Wf\UiBundle;
+namespace Webfactory\TwigUiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
